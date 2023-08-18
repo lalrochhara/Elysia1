@@ -1,9 +1,9 @@
 name: Format Python code
 on: 
   push: 
-    branches: [shiken]
+    branches: [master]
   pull_request:
-    branches: [shiken]
+    branches: [master]
 jobs:
   Autoyapf:
     runs-on: ubuntu-latest
